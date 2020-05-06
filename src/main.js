@@ -6,6 +6,9 @@ import App from './App'
 import store from './store'
 import router from './router'
 
+import RootObj from './components/rootObj'
+Vue.use(RootObj)
+
 Vue.use(VueResource)
 Vue.use(VueLazyload, {
     error: require('./assets/loading.svg'),
