@@ -40,12 +40,12 @@ Vue.component('child-component', {
     }
 })
 
-var Main = {
-    data() {
-        return {
-            msg: '我是父组件'
-        }
-    }
-}
-var Ctor = Vue.extend(Main)
-new Ctor().$mount('#app')
+// var Main = {
+//     data() {
+//         return {
+//             msg: '我是父组件'
+//         }
+//     }
+// }
+// var Ctor = Vue.extend(Main)
+// new Ctor().$mount('#app')

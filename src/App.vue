@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <Child0></Child0>
-        <Root-obj></Root-obj>
+        <root-obj></root-obj>
 <!--      <ChildA/>-->
 <!--      <ChildB/>-->
 
@@ -48,7 +48,7 @@
 
     import ChildA from './components/ChildA' // 导入A组件
     import ChildB from './components/ChildB' // 导入B组件
-    import RootObj from './components/rootObj' // 导入B组件
+    // import RootObj from './components/rootObj' // 导入B组件
 
 
 
@@ -71,7 +71,7 @@ export default {
   components: {
       Child0,
       ChildA, ChildB,
-      RootObj,
+      // RootObj,
     Search,
     Play,
     Rank,
